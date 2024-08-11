@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слайд Бар</title>
+    <link rel="stylesheet" href="../layout/styles/framework.css">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+  
+  <div class="bgded"> 
+    <div class="wrapper row1">
+      <header id="header" class="hoc clear"> 
+        <div id="logo" class="fl_left">
+          <h1><a href="../index.html">GAZ</a></h1>
+        </div>
+        <nav id="mainav" class="fl_right">
+          <ul class="clear">
+            <li><a href="../index.html">Главная</a></li>
+            <li class="active"><a class="drop" href="#">Изображения</a>
+              <ul>
+                <li class="active"><a href="gallery.html">Галерея</a></li>
+                <li><a href="slidebar.html">Слайд Бар</a></li> 
+              </ul>
+            </li>
+            
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
+  <div class="slider">
+    <div class="slides">
+      <div class="slide" style="background-image: url('../images/demo/gallery/gaz01.jpg');"></div>
+      <div class="slide" style="background-image: url('../images/demo/gallery/gaz02.jpg');"></div>
+      <div class="slide" style="background-image: url('../images/demo/gallery/gaz03.jpg');"></div>
+    </div>
+    <div class="prev">&#10094;</div>
+    <div class="next">&#10095;</div>
+  </div>
+
+<script src="../scripts/main.js"></script>
+</body>
+</html>
